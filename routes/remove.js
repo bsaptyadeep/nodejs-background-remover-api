@@ -10,7 +10,7 @@ router.post("/", async (req, res) => {
     console.log(url);
     removeBackgroundFromImageUrl({
         url,
-        apiKey: process.env.KEY,
+        apiKey: "Cg1nucvhXuJTH8XX5oPWBm7K",
         size: "regular",
         type: "person",
         bg_color: req.body.backgroundColor,

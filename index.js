@@ -3,7 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const removeRoute = require("./routes/remove")
+const removeRoute = require("./routes/remove");
 
 // middlewares
 app.use(express.json());
